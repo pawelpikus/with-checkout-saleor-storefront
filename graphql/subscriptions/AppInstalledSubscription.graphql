@@ -1,0 +1,9 @@
+subscription AppInstalledSubscription {
+  event {
+    ... on AppInstalled {
+      app {
+        id
+      }
+    }
+  }
+}
